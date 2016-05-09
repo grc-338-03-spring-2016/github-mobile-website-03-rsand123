@@ -1,0 +1,184 @@
+ 
+
+/* The container sets the width as a percentage of the browser window and margin 0 auto centers the page
+ Note that all measurements are in relative units*/
+
+
+
+
+}
+.container {
+    height: auto;
+    margin: .5em;
+
+}
+
+h1 {
+    font-family: 'Madre Script', serif;
+    color:darkgray;
+    text-align: center;
+    font-size: 4em;
+    padding: 10% 0 7% 0;
+}
+
+h3 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.4em;
+    font-weight: 700;
+    color: darkgray;
+    padding: 5% 0 3% 0;
+}
+
+p {
+    font-family: Georgia;
+    font-size: 1em;
+    line-height: 1.6em;
+    text-align: center;
+    color: black;
+    padding-top: 40px;
+}
+
+}
+
+  
+
+
+/*Here are two pseudo class selectors to apply tp blockquote*/
+blockquote:before {
+    content: open-quote;
+    font-family: Georgia,serif;
+    font-size: 1.7em;
+    font-weight: 700;
+}
+
+blockquote:after {
+    content: close-quote;
+    font-family: Georgia,serif;
+    font-size: 1.7em;
+    font-weight: 700;
+}
+
+.circle-box {
+    padding: 3% 2% 2% 2%;
+    text-align: center;
+    background-color: #;
+    overflow: hidden;
+}
+
+section h3 {
+    font-size: 1.8em;
+    text-align: center;
+    padding: 8% 0 0 0;
+    color: darkgray;
+}
+
+section p {
+    padding-top: 80px;
+    text-align: center;
+    font-size: 1em;
+    line-height: 1.6;
+    color: darkgray;
+    width: 100%;
+
+    
+}
+
+/*This sets the maximum width of the image to no more than the containing element*/
+img {
+    max-width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 600px;
+    margin-top: 30px;
+}
+
+main {
+   
+    text-align: justify;
+    background-color: #;
+    padding: 0 2% 4% 2%;
+    overflow: hidden;
+}
+
+em {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #706f7e;
+    display: block;
+    padding: 0 0 1% 0;
+}
+
+.professional {
+    margin: 3% 0 0 0;
+}
+
+.professional p{
+    margin: 0 0 1% 0;
+}
+
+/*Start of Nav menu*/
+
+ /*This sets the font size and removes the default bullets from the ul list. Also sets the overall with of the ul as a percentage of the containing element*/
+nav ul {
+    margin: -3% 0% 0%;
+    font-family: "Futura", sans-serif;
+    font-size: .8em;
+    text-align: center;
+    
+  
+}
+
+/*This sets the list items to display as blocks, with links within each list item floating next to each other within each block with a right margin to seperate each block*/
+nav ul li {
+    display:inline;
+/*    padding: 65% 0 5% 0;*/
+    margin: 0% 10% 0 0%;
+    text-align:center;
+    color: darkgray;
+    
+    
+    
+    
+}
+
+/*Sets each a link to display as block. Sets the color of the background of blocks and text and centers text in box*/
+nav ul li a {
+    display: inline;
+    text-decoration: none;
+    font-family: 'garamond', serif;
+    font-weight: 400;
+    text-align: center;
+    
+    
+    
+}
+
+a:link {
+    color:darkgray;
+}
+
+a:hover { 
+    color: white; 
+}
+
+nav ul li a:visited { 
+    color:; 
+}
+
+/* END nav MENU */
+
+
+
+footer {
+    height: auto;
+    color: #eaeced;
+    background-color:;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 3% 0 3% 0;
+}
+
+.footertext {
+   
+}
